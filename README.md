@@ -1,51 +1,173 @@
-# Community Coordinator (CC)
+# Community Coordination Guide (CC) 
 
-XXX distributed multi-user machine, cpu, storage, executable,
-development
+## What is Community Coordination?
 
-XXX how do we incentivize users to store data?
+Community Coordination (CC) is a process in the spirit of Lean and
+Agile, supported by a software platform that reduces workload while
+handling the administrivia of coordinating projects and events for a 
+group, community, or organization. Providing both synchronous and
+asynchronous guidelines and tools, CC emphasizes accessibility,
+collaboration, and adaptability, and is suitable for a wide range of
+users, including those with technical and non-technical backgrounds.
 
-Community Coordination (CC) is a system for helping to manage and
-organize the things that people do, together and individually. It is
-based on the principles of Lean and Agile methodologies, but with a
-focus on accessibility and collaboration. CC is designed to be
-lightweight, flexible, and easy to understand, making it well-suited
-for use by both technical and non-technical communities.
+It's become obvious during early discussion that we're likely working
+on a decentralized platform that supercedes git, gdocs, scrum, and
+several other commonly-used tools and methodologies. Existing
+solutions either have a high learning curve, are narrowly targeted at
+a specific use case, or are missing features that weren't feasible
+when they were developed, such as AI-mediated conflict resolution
+during merges.  
 
-Note that "CC" is a working name for this new process and is subject
-to change (in particular, the "CC" acronym is already in use by the
-[Creative Commons](https://creativecommons.org/) organization). As we
-continue to refine and improve the process, alternative names should
-be suggested and considered. If you have any suggestions for a more
-fitting title, please feel free to share them with the group.  Some
-under consideration include:
+Git, for instance, was written to meet an emergency need of Linux
+kernel developers nearly two decades ago, and github was later created
+in order to work around some of git's shortcomings, such as lack of
+integrated issues or in-band communication.  Git wasn't the first
+decentralized version control system, and it won't be the last. It's
+time to move on, but any replacement will need to be really, really
+good in order to justify adoption.
+
+See the [Bootstrapping](#Bootstrapping) section for how we're running
+this project right now, and the remainder of this guide for how things
+will work after we become self-hosting.
+
+Note that "CC" is a working name for this new process and is likely to
+change (in particular, the "CC" acronym is already in use by the
+[Creative Commons](https://creativecommons.org/) organization). If you
+have any suggestions for a more fitting title, please feel free to
+share them with the group.  Some under consideration include:
 
 - TC -- Timeline Coordination
+- GDO -- Governance, Development, and Operations
 - Timelines -- descriptive
 - TymeLynes -- unique
 
-## Key Concepts
+## Bootstrapping 
 
-1. Timelines: Timelines are the core structure of the CC system. Each
-   timeline represents a series of events, records, or scripts that
-   describe the history and future of a community or project.
-   Timelines are used to capture and organize important information,
-   decisions, and procedures.  
-2. Commits (XXX Point): These are the individual units of information
-   that make up a timeline. A change in a doc, or related changes in
-   several docs or code files, is a commit. Commits can describe past
-   or future events or ongoing processes. They may be written in
-   either natural or machine-readable language, depending on the needs
-   of the community.
+This guide and the CC platform are being created by the [Community
+Systems Working Group](http://cswg.infrastructures.org/), a spinoff
+from the [Nation of Makers](http://nationofmakers.us).  While we build
+the platform, we have a chicken-and-egg problem; we need the platform
+to help coordinate our efforts.  In order to bootstrap things until we
+can become self-hosting, we are adopting some techniques from
+[Agile](https://en.wikipedia.org/wiki/Agile_software_development) and
+[mob programming](https://www.remotemobprogramming.org/) for
+synchronous coordination, and github for async work.
+
+For now, we're using [mob.sh](https://mob.sh/) to coordinate mobbing
+and ease the use of git and github.  For consensus formation, we're
+using [sibyl](https://github.com/t7a/sibyl), a [planning
+poker](https://en.wikipedia.org/wiki/Planning_poker) tool.
+
+### Bootstrapping: Installing mob.sh
+
+To install mob.sh, follow the instructions provided in the [GitHub
+repository](https://github.com/remotemobprogramming/mob).  There are
+several installation methods avilable for various operating systems
+and environments, and a plugin for vscode.
+
+### Bootstrapping: Getting Access
+
+You will need to be added as a collaborator in the [repository for
+this guide](https://github.com/stevegt/cc-guide), and/or any other
+repo the group might be working on during a mobbing session.  XXX
+likely want a monorepo instead of multiple repositories.
+
+### Bootstrapping: Participating Synchronously
+
+A synchronous mobbing session is held weekly.  To join, get on the
+CSWG mailing list. XXX need join link -- or do we move to github
+issues, discord, other?
+
+Each mobbing session works on one or more github issues.  The group
+selects the next issue to work on using planning poker -- see the
+[Bootstrapping: Planning Poker](#Bootstrapping-Planning-Poker)
+section.
+
+To use mob.sh in a synchronous meeting:
+
+1. Collaborate on the issue at hand; discuss ideas and share knowledge
+   with the group. One group member will act as the driver (typist),
+   while others provide advice, research, and guidance.
+2. While not driving, help us find answers -- search the web, brainstorm
+   with a machine learning tool such as https://chat.openai.com/chat,
+   and tell us what you find.
+2. When it's your turn to drive, run `mob start 10`. This creates a
+   new "mob-session" branch in git on your local machine, and sets a
+   timer for 10 minutes.
+3. When the timer is up, save your progress and share with everyone
+   else by running `mob next`. This command commits your changes to
+   the mob-session branch and pushes them to the repository on
+   github.
+4. Repeat steps 1-3 for 50 minutes.
+5. When the session is over, the facilitator will run `mob done`. This
+   command merges the mob-session branch into the main branch, and
+   deletes the mob-session branch.
+
+To ensure successful mob programming sessions, follow these best practices:
+
+- Encourage equal participation among team members by setting a timer
+  and rotating control regularly.
+- Maintain clear communication during mob sessions by discussing
+  ideas, asking questions, and providing feedback.
+- Balance mob programming sessions with individual async work to allow
+  team members time to process information and focus on specific
+  tasks.  See [Bootstrapping: Participating
+  Asynchronously](#Bootstrapping-Participating-Asynchronously) for
+  more information.
+
+### Bootstrapping: Planning Poker
+
+There will be times during the mob session when there is not an
+obvious consensus on a particular issue.  In these cases, we will use
+sibyl to help us reach a decision.  Sibyl is a planning poker tool
+that allows us to vote on issues using a simple interface.  It is
+designed to be used in a synchronous meeting, and is not suitable for
+asynchronous use.
+
+To use sibyl:
+
+1. The facilitator will use the
+   [sybil-cli](https://github.com/stevegt/sibyl-cli) tool to raise a
+   new question.  
+2. The facilitator will share the URL with the group.
+3. The group will vote on issues by clicking on the cards in the
+   interface.
+4. The results will be displayed when all members have voted.
+
+### Bootstrapping: Participating Asynchronously
+
+While we're bootstrapping, we will use github for async work.  This
+includes:
+
+- Creating issues for discussion and tracking work
+- Creating pull requests for code review and merging
+
+## Self-hosting
+
+The remainder of this document is forward-looking and describes how
+things will work once we have a working platform.
+
+## Key Features
+
+1. Parallel Timelines: CC enables users to create and manage multiple
+   parallel timelines, allowing for easy organization, comparison, and
+   conflict resolution between different versions of documents, code,
+   or plans.
+2. Commits (Point?  Event?): These are the individual units of
+   information that make up a timeline. A change in a doc, or related
+   changes in several docs or code files, is a commit. Commits can
+   describe past or future events or ongoing processes. They may be
+   written in either natural or machine-readable language, depending
+   on the needs of the community.
 3. Branches: Branches are used to represent different versions of a
    timeline. For example, a timeline might have a "main" branch that
    represents the current state of the timeline, and a "draft" branch
    that includes all of the commits from the main branch with one or
    more new commits appended to the end.
-4. Keys (Label?): A key is a unique identifier that is used to refer to a
-   specific commit. Each commit must include the key of the previous
-   commit in the timeline.  The key of the last commit in a timeline
-   is used as both the version number of the timeline and an
+4. Keys (Label?): A key is a unique identifier that is used to refer
+   to a specific commit. Each commit must include the key of the
+   previous commit in the timeline.  The key of the last commit in a
+   timeline is used as both the version number of the timeline and an
    identifier of the timeline itself. Keys are computer-generated
    based on the content of the commit, are unique, and can be used to
    verify that the commit has not been altered.
@@ -55,6 +177,10 @@ under consideration include:
    resources or procedures. A community using CC will always link to a
    commit in this document's timeline to indicate which version of the
    CC process they are following.
+
+## WIP
+
+XXX word salad below here
 
 ## Commit Lifecycle
 
@@ -224,11 +350,6 @@ the process of reviewing and approving
    CC categorizes meetings into three types -- planning, writing, and
    testing.  More on this later.
 
-6. Forks:
-
-7. Proposals:
-
-8. Acceptance:
 
 # Layers
 
@@ -456,5 +577,181 @@ that are linked together
 chronologically by the keys of existing nodes. The timeline is the
 
 ### Node
+
+### TODO
+
+XXX distributed multi-user machine, cpu, storage, executable,
+development
+
+XXX how do we incentivize users to store data?
+
+Timelines: Timelines are the core structure of the CC system. Each
+   timeline represents a series of events, records, or scripts that
+   describe the history and future of a community or project.
+   Timelines are used to capture and organize important information,
+   decisions, and procedures.  
+
+## Quick Start
+
+If starting use of CC in a new group, community, or organization, go
+to the [Startup Checklist](#startup-checklist). 
+
+If CC startup is done and you are hosting a synchronous event, go to the
+[Synchronous Checklist](#synchronous-checklist).
+
+If CC startup is done and you are supporting an asynchronous
+community, go to the [Asynchronous Checklist](#asynchronous-checklist).
+
+## Startup Checklist
+
+This is an interim procedure that will be superceded by a more
+automated process.  Until then:
+
+- [ ] Fork [this repository](https://github.com/stevegt/cc-guide) on
+  github.
+- [ ] Edit the [config.yaml](config.yaml) file to reflect your
+  community's information, including preferred URLs and tools.
+- [ ] Run `make` in your repository's top-level directory to generate
+  the [index.html](index.html) file.
+- [ ] Commit and push your changes.
+- [ ] In your repository's settings, enable github pages to serve the
+  `main` branch root directory.
+- [ ] Provide your repo URL to participants using {{.ANNOUNCE_LINK}}
+
+## Synchronous Checklist
+
+This is an interim procedure that will be superceded by a more
+automated process.  Until then:
+
+### Before event
+
+- [ ] Propose the event at {{.PROPOSAL_LINK}}
+- [ ] Collect participant availability at {{.WHEN_LINK}}
+- [ ] Confirm the date and time at {{.WHEN_LINK}}
+- [ ] Announce the event at {{.ANNOUNCE_LINK}}
+- [ ] Send a reminder at {{.ANNOUNCE_LINK}}
+- [ ] ggXXX
+
+### During event
+
+- [ ] XXX
+
+### After event
+
+- [ ] XXX
+
+## Asynchronous Checklist
+
+This is an interim procedure that will be superceded by a more
+automated process.  Until then:
+
+### Before event
+
+- [ ] Propose the event at {{.PROPOSAL_LINK}}
+- [ ] Collect participant availability at {{.WHEN_LINK}}
+- [ ] Confirm the date and time at {{.WHEN_LINK}}
+- [ ] Announce the event at {{.ANNOUNCE_LINK}}
+- [ ] Send a reminder at {{.ANNOUNCE_LINK}}
+- [ ] XXX
+
+### During event
+
+- [ ] 
+
+### After event
+
+- [ ] XXX
+
+
+## Contributing
+
+This is a living document.  It is a work in progress and will be updated as we learn more.
+
+If you have suggestions for how to improve this document, please open a pull request or issue on the [Community Coordination Guide GitHub repository](https://github.com/stevegt/cc-guide).
+
+## License
+
+This work is licensed under a Creative Commons Attribution 4.0
+International License.  See [LICENSE](LICENSE) for details.
+
+
+# Types of Community Coordination
+
+There are two main types of community coordination -- most communities
+combine elements of both in a hybrid approach:
+
+1. **Synchronous Community Coordination**:  This is the process of
+   participating synchronously during virtual or in-person meetings
+   and events.  This is covered in the [Synchronous Community
+   Coordination](#synchronous-community-coordination) section.
+2. **Asynchronous Community Coordination**:  This is the process of
+   participating asynchronously through electronic communication and
+   collaboration tools.  This is covered in the [Asynchronous
+   Community Coordination](#asynchronous-community-coordination)
+   section.
+
+2. Flexible Coordination: CC is designed to accommodate various use
+cases, from personal to-do lists and organizational calendars to code
+repositories and project management tools.
+
+3. Collaboration: The system fosters teamwork by providing tools for
+communication, document sharing, and real-time editing.
+
+4. Decentralization: CC leverages decentralized technologies to store
+data, ensuring greater security, privacy, and resilience.
+
+5. Accessibility: CC is built to be user-friendly and can be accessed
+   through modern web browsers, making it available to a diverse range
+   of users and devices.
+
+## Benefits of Using CC
+
+Implementing CC within a community or organization can yield numerous benefits:
+
+- Improved organization and planning through the use of parallel
+  timelines and flexible coordination tools.
+- Enhanced collaboration between team members, leading to more
+  efficient decision-making and problem-solving.
+- Greater transparency, as changes and updates are recorded and
+  visible to the entire community.
+- Reduced reliance on centralized systems, resulting in improved
+  security and resilience.
+
+
+## Who Can Use CC?
+
+CC is designed for a wide range of users, including:
+
+- Individuals seeking a better way to manage their personal tasks and
+  activities.
+- Teams or organizations looking to improve collaboration, project
+  management, and decision-making.
+- Developers and software teams in need of a decentralized,
+  collaborative code management system.
+- Event planners and coordinators who require a flexible, accessible
+  platform for organizing and executing events.
+
+In summary, Community Coordination (CC) is a versatile and accessible
+system for managing and organizing individual and collective
+activities. By leveraging key concepts like parallel timelines,
+collaboration, and decentralization, CC aims to
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
