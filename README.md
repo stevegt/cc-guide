@@ -65,12 +65,32 @@ repository](https://github.com/remotemobprogramming/mob).  There are
 several installation methods avilable for various operating systems
 and environments, and a plugin for vscode.
 
-### Bootstrapping: Getting Access
+### Bootstrapping: Getting Started
 
-You will need to be added as a collaborator in the [repository for
-this guide](https://github.com/stevegt/cc-guide), and/or any other
-repo the group might be working on during a mobbing session.  XXX
-likely want a monorepo instead of multiple repositories.
+XXX evaluate github desktop as an alternative for this section.
+[https://desktop.github.com/](https://desktop.github.com/)
+
+1. You will need a github account in order to participate in this
+   project.  If you don't already have one, you can create one at
+   [github.com](github.com).
+2. You will need to add an ssh key to your github account in order to
+   be able to clone and push changes to any repository on github.  If
+   you haven't already done this, follow the instructions provided in
+   the [GitHub
+   documentation](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
+3. You will need to be added as a collaborator in the [repository for
+   this guide](https://github.com/stevegt/cc-guide), and/or any other
+   repo the group might be working on during a mobbing session.  XXX
+   may want a monorepo instead of multiple repositories.
+4. Clone the repository to your local machine.  You can do this by
+   running the following command:
+
+```
+mkdir ~/src  # of course, you can use any directory you like, like ~/lab
+cd ~/src
+git clone git@github.com:stevegt/cc-guide.git
+cd cc-guide
+```
 
 ### Bootstrapping: Participating Synchronously
 
@@ -91,15 +111,15 @@ To use mob.sh in a synchronous meeting:
 2. While not driving, help us find answers -- search the web, brainstorm
    with a machine learning tool such as https://chat.openai.com/chat,
    and tell us what you find.
-2. When it's your turn to drive, run `mob start 10`. This creates a
+3. When it's your turn to drive, run `mob start 10`. This creates a
    new "mob-session" branch in git on your local machine, and sets a
    timer for 10 minutes.
-3. When the timer is up, save your progress and share with everyone
+4. When the timer is up, save your progress and share with everyone
    else by running `mob next`. This command commits your changes to
    the mob-session branch and pushes them to the repository on
    github.
-4. Repeat steps 1-3 for 50 minutes.
-5. When the session is over, the facilitator will run `mob done`. This
+5. Repeat steps 1-4 for 50 minutes.
+6. When the session is over, the facilitator will run `mob done`. This
    command merges the mob-session branch into the main branch, and
    deletes the mob-session branch.
 
@@ -109,6 +129,7 @@ To ensure successful mob programming sessions, follow these best practices:
   and rotating control regularly.
 - Maintain clear communication during mob sessions by discussing
   ideas, asking questions, and providing feedback.
+- Avoid 'going rogue' in a session by being attentive to other's advice.
 - Balance mob programming sessions with individual async work to allow
   team members time to process information and focus on specific
   tasks.  See [Bootstrapping: Participating
@@ -136,8 +157,9 @@ To use sibyl:
 
 ### Bootstrapping: Participating Asynchronously
 
-While we're bootstrapping, we will use github for async work.  This
-includes:
+Allowing for independent asynchronous work outside of mobbing sessions
+is important to encourage creativity and progress. While we're
+bootstrapping, we will use github for async work.  This includes:
 
 - Creating issues for discussion and tracking work
 - Creating pull requests for code review and merging
@@ -182,10 +204,23 @@ things will work once we have a working platform.
 
 XXX word salad below here
 
-## Commit Lifecycle
-
 
 ## Timeline Lifecycle
+
+In summary, a timeline in the context of CC or GDO refers to a
+chronological ordering of events, policies, or actions related to
+climate change or global development. It is a tool used to visualize
+connections and impacts of past and future actions by governments,
+corporations, international organizations, and individuals working
+towards sustainable development goals. 
+
+A timeline consists of commits or events that are frozen and
+referenced using a unique identifier, and can have multiple branches
+to represent different versions or scenarios. Changes to a timeline
+are made through a proposal and review process, with options for
+objection and conflict resolution. CC is designed to be flexible and
+accommodate various uses, from personal to-do lists to project
+management tools.
 
 Anyone can create a new timeline. The first commit in a timeline
 should describe 
