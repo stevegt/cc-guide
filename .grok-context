@@ -896,3 +896,526 @@ involves assessing its quality and making a decision about whether to
 accept or reject it. In both cases, there may be rules or criteria
 that need to be met in order for a proposal to be accepted. 
 
+"Proposals are the birth of ideas, brought forth from the imagination of individuals and presented for scrutiny by the collective. They serve as exploratory vessels, navigating the choppy waters of possibility and seeking to find common ground amidst a sea of differing opinions."
+
+"A proposal is an opportunity to gather input, reconcile differences, and make decisions based on a solid foundation of recorded experience."
+
+"A proposal enables group deliberation and resolves conflicts before making a final decision."
+
+Tests whisper secrets,
+To ensure a code's value. 
+Quality assured.
+
+Decisions are tough,
+Testing provides a clear course,
+Governance endures.
+
+"Test early, test often. Code lives longer than its developer."
+
+"Tests form the backbone of governance, a rigorous scientific approach."
+
+"Testing is how we explore the universe of commitments."
+
+"Assert goals, test progress, and implement change."
+
+"If you can't test it, you can't govern it."
+
+"Test-driven governance: progress by design, not by accident."
+
+"Constraining power through testing: Govern thyself, before governing others."
+
+"In test-driven governance, assertions are our guiding stars."
+
+"Commit, test, refine - governance with a scientific touch."
+
+"Test first, govern boldly."
+
+"Test-driven governance: commit, test, iterate. Resilience through adaptation."
+
+"Test-driven governance: Cyclical adaptation breeds resilience."
+
+"Goals as commitments, tests as verifications, progress through iterations."
+
+"Define goals, commit tests, implement changes. Adapt and innovate."
+
+"Start with goals, test progress, and adapt to circumstances."
+"Goal commit. Test commit. Progress commit. Repeat. Iterate." -Feynman
+Iterative decision-making through commits with tests.
+Iterative governance with continual learning, adaptation and automated testing.
+Iterative process that prioritizes testing.
+Continually test decisions and adapt for effective governance.
+Test-driven governance = goals + tests + adaptation.
+Test-driven governance: making sure we do things right!
+Make rules, test rules, change rules until it works.
+"Test-driven governance is like making a plan, testing the plan, and then changing the plan based on what we learned."
+"Test first, then implement to make better decisions" - TDD for Governance.
+"Test-driven governance is like following a recipe when you are cooking. First, you decide what you want to make, then you write down the steps you need to take, and finally, you check that you followed each step correctly. This helps make sure that what you make turns out the way you want it to, and you can make changes if needed." 
+In test-driven governance, we set a goal, then create a plan that divides the goal into smaller tasks, called tests. We make sure that each test is passed before we take another step. This helps us be sure that we are headed in the right direction and that what we create will work well.
+"Governance: because making decisions based on feelings is outdated."
+
+Decentralized or federated systems offer greater resilience. Since the
+data is stored in a distributed manner, there's no single point of
+failure, reducing the disaster and attack risks. Decentralized systems
+promote privacy when the data is encrypted by default, because it is
+not held by one centralized authority that might have a conflict of
+interest. Overall, decentralized platforms provide greater autonomy,
+flexibility, and fairness, reducing the risk of fraud and corruption.
+These platforms are adaptable and customizable to a wide range of
+situations and needs, making them more flexible and accessible than
+centrally-owned targeted tools. Overall, decentralized platforms
+provide an environment for advancing vital work in project management,
+event coordination, governance, software and gardware development, and
+most other fields of human endeavor.  Decentralized systems avoid
+reliance on a single legal entity -- decentralized and federated
+systems are by definition owned my multiple parties.  Decentralization
+avoids loss of community that can be caused by loss of a single legal
+entity.  
+
+
+Moreover, decentralized systems provide greater autonomy, flexibility,
+and fairness, reducing the risks of fraud and corruption. They are
+adaptable and customizable to a wide range of situations and needs,
+making them more flexible and accessible than centrally-owned targeted
+tools. Finally, decentralized systems avoid reliance on a single legal
+entity or centralized power, promoting a more distributed
+decision-making process and avoiding the loss of community that can
+result from the loss of a single legal entity.
+
+Tests are important in a decentralized system because they serve as
+the rules for determining whether a commit should be accepted.  If the
+tests were on a different timeline, it would be difficult to track
+which version of the tests was used in the review process, leading to
+potential conflicts and inconsistencies. To ensure transparency and
+accuracy, tests on a timeline are designed to determine which branch
+or version is considered the "trunk". In the event of a conflict, it
+is important that the tests are on the same timeline to ensure that
+changes and updates are reviewed and validated before being
+implemented.
+
+Decentralization is a core concept in CC and timeline-based governance
+because it offers a number of benefits. By using decentralized systems
+to store data, CC offers greater security, privacy, and resilience.
+Decentralization helps to prevent a single point of failure, which can
+reduce the risk of disasters and attacks. It also promotes privacy, as
+the data is encrypted by default and not held by a single centralized
+authority that might have a conflict of interest. 
+
+In addition, decentralized platforms provide greater autonomy,
+flexibility, and fairness, reducing the risk of fraud and corruption.
+They are adaptable and customizable to a wide range of situations and
+needs, making them more flexible and accessible than centrally-owned
+targeted tools. Decentralized systems avoid loss of community that can
+be caused by loss of a single legal entity. This is particularly
+important in communities where decision-making processes are
+distributed and based on collaboration, consensus, and participation.
+
+Decentralized processing allows for greater resilience and security by
+distributing computational tasks across a network of nodes in a
+trustless, distributed environment. Designed to be independent of any
+specific hardware or operating system, its execution is not dependent
+on any single machine or entity. This decentralization makes the
+decentralized machine more robust and resistant to failure or
+interference from any one node.
+
+In order to ensure consistency and accuracy, the testing process
+provides a consensus mechanism to ensure that all nodes in the network
+agree on the state of a timeline. This consensus mechanism allows the
+network to function without relying on a central authority or
+centralized data storage.
+
+The system also allows for the creation of decentralized applications
+that can be built on top of the platform. These apps can take
+advantage of the decentralized nature of the system to provide secure
+and trustless solutions to various problems. 
+
+
+describe a low-level wire protocol that is based on lambda queries in
+which the op code is a cryptographic hash of the lambda function's
+code, operands are inputs to the function, and the result is
+referentially transparent so is cacheable in a decentralized system
+
+
+The proposed wire protocol is a low-level communication protocol based
+on lambda queries. Each query contains a cryptographic hash of the
+lambda function's code as the opcode, and the inputs to the lambda
+function are passed as operands. The result of the lambda function is
+deterministic and referentially transparent, making it possible to
+cache the result in a decentralized system. 
+
+For example, let's assume that we have a lambda function that
+calculates the square of a number. The lambda function can be
+represented as a code block, and we can generate a cryptographic hash
+of the code block. This hash becomes the opcode of the query. 
+
+When a client makes a request for the square of a number, it sends a
+lambda query that contains the hash of the square function, along with
+the number to be squared. The server receives the query, looks up the
+result in its cache, and if it's not found, it executes the lambda
+function, caches the result and returns it to the client. 
+
+In this way, the wire protocol based on lambda queries allows us to
+perform decentralized computations with minimal network overhead,
+since the results of the lambda function can be cached and reused.
+This makes it possible to build decentralized applications that are
+both efficient and scalable.
+
+
+describe how decentralized lambda systems are heterogeneous, allowing
+participation from all actors, whether human or machine, mainfrome or
+microcontroller, IoT or AI.
+
+
+Decentralized lambda systems are heterogeneous because they allow for
+multiple actors, regardless of whether they are human or machine, to
+participate in the system. This means that the system is not limited
+to a specific type of participant, and can include different devices
+or technologies like mainframes, microcontrollers, IoT devices, and AI
+systems.
+
+The architecture of decentralized lambda systems allows for
+flexibility in implementation, making it accessible to a highly
+diverse set of actors. For example, a microcontroller can participate
+in the system by implementing specific functions, while an AI system
+can process data and provide insights based on the inputs received
+from the other participants. 
+
+Each participant is capable of contributing its unique capabilities
+and expertise to the system, whether it's performing an essential task
+or providing high-level analysis of the data. In this way, the system
+can achieve a high level of flexibility and adaptability, making it
+highly responsive to the changing needs of its participants or users. 
+
+
+a system with a unique sensor can participate as well
+
+
+Absolutely! Decentralized lambda systems are designed to be
+heterogeneous, meaning that they can include participation from all
+types of devices and machines, including sensors, microcontrollers,
+and Internet of Things (IoT) devices. This means that a system with a
+unique sensor can certainly participate in the decentralized lambda
+system. In fact, the incorporation of sensors and other machines can
+greatly enhance the capabilities of the system by allowing for
+real-time data collection, analysis, and decision-making.
+Additionally, machine learning tools can help to mediate consensus and
+provide further insights into the data being collected and analyzed.
+Overall, the decentralized nature of the system allows for seamless
+participation from a wide variety of actors, whether human or machine.
+
+
+How do i describe human participation in decentralized lambda systems
+without making it sound like the humans are just cogs in a machine?
+
+
+To describe human participation in decentralized lambda systems, it's
+important to recognize that humans are not just cogs in a machine.
+Decentralized systems are designed to promote participation and
+collaboration between humans and machines, and to give agency and
+autonomy to individuals and groups.
+
+Decentralized systems are built on the idea of distributed
+decision-making and consensus formation, where individuals are
+empowered to make decisions, take action, and collaborate in a
+trustless and transparent environment. Humans are key actors in these
+systems, providing critical thinking, creativity, and social skills
+that are difficult, if not impossible, for machines to replicate.
+
+This collaborative environment allows for diverse perspectives,
+experiences, and knowledge to be brought to the table, ultimately
+leading to better decision-making and more innovative solutions. By
+leveraging the strengths of both humans and machines, decentralized
+systems can achieve levels of efficiency and scalability that would be
+impossible for either group to achieve on their own.
+
+Overall, human participation is a crucial aspect of decentralized
+lambda systems, and one that should be valued and encouraged. These
+systems are not just about technology, but about creating a more
+cooperative, transparent, and equitable way of working together.
+
+
+describe trustless
+
+
+Trustless refers to a system in which interactions and transactions
+can occur without the need for trusting a central authority or
+intermediary. Instead, a trustless system is designed to rely on
+cryptographic algorithms, consensus mechanisms, and other methods to
+ensure security, transparency, and accountability without relying on a
+trusted third party to manage the process. This means that users can
+participate in the system without having to trust any individual or
+entity, because the system is designed to ensure accuracy and fairness
+without that reliance.
+
+
+why is trustless important in a close community where the parties know
+and trust each other?
+
+
+While it may seem counterintuitive, trustless systems are still
+important in a close community where the parties know and trust each
+other because they help to ensure security, transparency, and
+accountability. Even in a community where all parties are known and
+trusted, there is still a risk of fraud or corruption if there is a
+central authority or intermediary that manages the process. By
+removing the need for a trusted third party, a trustless system can
+improve the efficiency and fairness of transactions and interactions
+while also promoting transparency and accountability. Additionally,
+trustless systems can provide greater flexibility and adaptability
+to changing circumstances compared to centrally-owned targeted
+tools, which can be rigid and inflexible. Ultimately, trustless
+systems can help close communities to achieve their goals in a more
+democratic and collaborative way.
+
+
+"trustless" really means "no central trusted third party needed"
+
+
+Yes, that's correct! In a trustless system, interactions and
+transactions can occur without relying on a central authority or
+intermediary, because the system is designed to ensure accuracy and
+fairness without that reliance.
+
+
+why is it important to avoid reliance on central third parties?
+
+
+It is important to avoid reliance on central third parties because
+centralization often creates a single point of failure or
+vulnerability, which can be exploited to harm the system or its users.
+Third parties may have conflicts of interest, act maliciously or
+incompetently, or be subject to censorship or interference by state
+actors. By decentralizing decision-making, data storage, and other key
+functions, individuals and communities can avoid these risks and build
+more resilient, transparent, and accountable systems. Decentralization
+promotes autonomy, flexibility, privacy, and fairness while reducing
+the risks of fraud, corruption, and abuse. It also encourages
+collaboration, innovation, and diversity by allowing more participants
+to contribute to the system without fear of reprisal. Overall,
+removing reliance on central third parties enables us to build more
+equitable and democratic societies.
+
+
+tell me about the relationship between decentralization, usenet, and
+the early days of the internet, compared to today's more centralized
+internet.  what are the downsides of the current situation?
+
+
+In the early days of the internet, there was a strong emphasis on
+decentralization, as evidenced by systems like Usenet. Usenet was a
+distributed discussion system that relied on a network of
+interconnected servers to share articles and messages. This allowed
+for decentralized decision-making and data sharing, as well as
+reducing the risk of a single point of failure or vulnerability.
+
+However, in recent years, there has been a shift towards
+centralization of the internet, as larger companies and platforms have
+gained significant power and influence. These centralized platforms
+often create a single point of control and can be subject to
+censorship or interference from state actors. This can have negative
+consequences for freedom of speech, privacy, and democracy.
+
+The downsides of a centralized internet include the risk of data
+breaches and the concentration of power in the hands of a few
+companies. This can result in an uneven playing field for smaller
+businesses and lead to a lack of innovation and diversity in the
+technology sector. Additionally, centralized systems are often
+inflexible and difficult to modify or scale, making it harder for
+communities to adapt to changing circumstances.
+
+In contrast, decentralized systems offer advantages such as greater
+resilience, privacy, and autonomy. Decentralization promotes
+collaboration, innovation, and diversity by allowing more participants
+to contribute to the system without fear of reprisal. Decentralized
+decision-making and data storage can also help prevent censorship or
+interference from third parties. Overall, decentralization can lead to
+a more equitable and democratic internet.
+
+
+summarize the need for decentralization in CC by comparing it to the
+early days of usenet and the internet versus now.
+
+
+In the early days of the internet, systems like Usenet emphasized
+decentralization which allowed for distributed decision-making and
+data sharing, reducing the risk of a single point of failure. However,
+in recent years, there has been a shift towards centralization in the
+internet with larger companies and state actors gaining significant
+power and influence. Decentralization in CC offers greater resilience,
+privacy, and autonomy while preventing a single point of control or
+interference. It promotes collaboration, innovation, and diversity
+while allowing more participants to contribute to the system without
+fear of reprisal leading to more equitable and democratic governance.
+
+
+describe the relationship between decentralization, usenet, and the
+distributed lambda system
+
+
+Decentralization, Usenet, and the distributed lambda system are
+related concepts that emphasize the importance of distributed decision
+making and data sharing. Usenet, a distributed discussion system from
+the early days of the internet, relied on interconnected servers to
+share articles and messages, promoting decentralized decision making
+and data sharing. Similarly, the distributed lambda system is based on
+a wire protocol that allows for decentralized computations through
+lambda queries. Each query contains a cryptographic hash of the lambda
+function's code as the opcode, and the inputs to the function are
+passed as operands. The result of the function is deterministic and
+referentially transparent, making it possible to cache the result in a
+decentralized system. Overall, decentralization promotes
+collaboration, innovation, and diversity while reducing the risks of
+fraud and interference from third parties. It also encourages a more
+democratic and transparent way of working together.
+
+
+docs are code
+
+
+Yes, in a sense, documentation can be considered as code. Just as code
+describes the behavior and structure of a program, documentation
+describes the behavior and structure of a project or system.
+Documentation also usually comes with its own set of rules and
+formatting guidelines, similar to how code has syntax and style
+conventions that must be followed. In a collaborative environment,
+documentation can be checked into version control systems just like
+code, and can be reviewed, tested, and revised just like code.
+
+
+a timeline is a form of evolving documentation
+
+
+Yes, that's correct. A timeline is a way to document the history and
+future of a community or project through a series of events or
+commits. It is also an evolving documentation because it can be
+updated and modified over time as new information or changes occur.
+The commits or events on a timeline are frozen and referenced using a
+unique identifier or key, which helps to maintain the integrity of the
+timeline and ensure that it is transparent and organized.
+Additionally, timelines can have multiple branches to represent
+different versions or scenarios, making them a versatile tool for
+managing information, tracking progress, and exploring different
+options or alternatives.
+
+
+a timeline is code
+
+
+Yes, a timeline can be thought of as a code or script that documents
+the history and future of a community or project in a structured and
+organized way. It consists of a series of commits, which can be seen
+as units of code or events, that are referenced and linked to one
+another to form a timeline. These commits are frozen and cannot be
+modified, but new commits can be added to the timeline to update or
+supersede previous ones. In this sense, a timeline can be seen as a
+form of evolving documentation that is organized and structured like
+code.
+
+
+describe how WASM and caching relay servers using websocket are used
+to create the decentralized system
+
+
+WebAssembly (WASM) is a binary instruction format designed for web
+browsers that allows code to run at near-native speeds. In a
+decentralized system, it enables users to run code in a trustless
+environment without relying on a centralized authority. In this way,
+users can be sure that their code is executing correctly and that
+their results are accurate.
+
+Caching relay servers using WebSockets is another important tool in
+creating a decentralized system. These servers help to overcome the
+latency and bandwidth limitations of the internet by automatically
+caching frequently accessed data on servers located closer to the
+user's location. This can greatly reduce latency and increase overall
+system performance.
+
+Together, WASM and caching relay servers using WebSockets form the
+backbone of a decentralized system. By enabling users to execute code
+at near-native speeds and caching frequently accessed data, this
+system creates a trustless, distributed environment that is both
+efficient and scalable. It allows for the creation of decentralized
+applications that are secure, transparent, and trustless, promoting
+collaboration, innovation, and diversity while reducing the risks of
+fraud and interference from third parties.
+
+
+the cashing relay servers are also important in order to work around
+private or natted IP addresses or firewalls keeping browsers from
+seeing each other directly on public IPS
+
+
+Yes, caching relay servers using WebSockets can play an essential role
+in a decentralized system by helping to overcome the limitations of
+traditional networking methods such as firewalls or NAT'd IP
+addresses. WebSockets can establish a persistent connection between
+the user's browser and the caching relay server, which can then cache
+frequently accessed data and return it to the user more quickly. This
+can help improve overall system performance, reduce network latency
+and bandwidth limitations, and ensure that users can interact with
+each other efficiently even when they are behind network barriers.
+
+
+describe why a system such as CC was not possible until now due to
+the recent maturity of technologies such as wasm
+
+
+A system such as CC (Community Coordination) was not possible until
+now due to the advances in technology and the internet. CC is based on
+key principles such as parallel timeliness, collaboration, and
+decentralization, and requires accessible and flexible tools and
+technologies to function efficiently. With the advent of modern web
+browsers, document management systems, version control systems, chat
+platforms, and other such tools, it is now possible to implement a
+system like CC that promotes collaboration, reduces workload, and
+provides a transparent and open process for coordinating projects and
+events. Additionally, the growing popularity of decentralized systems
+has paved the way for the adoption of CC and its underlying principles
+of decentralization and trustlessness.
+
+The growing popularity of decentralized systems has also paved the way
+for the adoption of CC, which promotes the principles of
+decentralization and trustlessness. 
+
+Additionally, the advent of technologies like WebAssembly (WASM) has
+facilitated the creation of a decentralized system by enabling users
+to run code in a trustless environment without the need for a
+centralized authority.
+
+
+list the main points
+
+
+Based on the given text, here are the main points:
+
+- CC or timeline-based governance is a process for managing projects
+  or communities through a series of events or commits on a timeline.
+- Timelines are an evolving documentation that can be updated and
+  modified over time as new information or changes occur.
+- A timeline consists of commits or events that are frozen and
+  referenced using a unique identifier or key, which helps to ensure
+  that it is transparent and organized.
+- Changes to a timeline are made through a proposal and testing
+  process, allowing for objection and conflict resolution.
+- Decentralization is a core concept in CC and timeline-based
+  governance as it offers greater security, privacy, and resilience,
+  and helps to prevent a single point of failure.
+- Parallel timelines can be used to maintain different versions or
+  scenarios of a project or community.
+- Multiple parties can work on different branches and test their
+  changes independently without causing conflicts, and can then merge
+  their changes using a proposal and testing process.
+- Testing provides a clear course for decision-making and ensures that
+  proposals or commits meet the criteria or rules described in prior
+  commits.
+- Timelines can be used to represent not only communities or projects
+  but also procedures or policies.
+- The downside of the current situation on the internet is
+  centralization, as larger companies and state actors have gained
+  significant power and influence, creating a single point of control
+  that can be subject to interference.
+- Decentralized lambda systems are heterogeneous, allowing
+  participation from all actors, whether human or machine, mainframe
+  or microcontroller, IoT or AI. This allows for flexibility and
+  adaptability, making the system highly responsive to the changing
+  needs of its participants or users.
+

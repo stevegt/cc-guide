@@ -311,7 +311,7 @@ better outcome.
 
 ## Consensus Detection with Machine Learning
 
-*Mediators work.*
+*Machine learning tools can mediate consensus.*
 
 While there are tools and methodologies available that can assist with
 merging, there is currently no known fully automated method. This is
@@ -339,10 +339,12 @@ document you see here.
 
 ## Proposals 
 
-A proposal is essentially a draft commit that is subject to review and
-discussion before being accepted and added to the timeline. It is an
-opportunity to gather input from the group or community and to resolve
-any objections or conflicts before making a final decision.
+*A proposal is a spark to light the fire of consensus.*
+
+A proposal is a draft commit that is subject to review and discussion
+before being accepted and added to the timeline. It is an opportunity
+to gather input from the group or community and to resolve any
+objections or conflicts before making a final decision.
 
 Here are the steps of the proposal process:
 
@@ -358,6 +360,8 @@ Here are the steps of the proposal process:
    as a permanent commit on the timeline.
 
 ## Testing
+
+*Testing verifies your reality.* 
 
 Testing a commit involves checking that it meets the requirements set
 by the prior commits on the same timeline. Testing can be either
@@ -376,6 +380,8 @@ to the tests are reviewed and validated before being implemented.
 
 ## Test Driven Governance
 
+*Set goals, test progress, and iterate.*
+
 Test-driven governance is a methodology that applies a concept from
 software development, known as test-driven development (TDD), to
 governance, management, and community building.
@@ -385,12 +391,12 @@ and then create automated tests that verify that the application
 fulfills these requirements. The developer then proceeds to write code
 that will pass the tests.
 
-Similarly, in test-driven governance, goals are defined in commits,
-followed by commits containing tests that verify progress toward those
-goals, and finally commits that implement the changes needed to make
-progress. As new situations and issues arise and we learn from
-experience, we create new goals and tests, allowing adaptation to
-changing circumstances.
+Similarly, in test-driven governance (TDG), goals are defined in
+commits, followed by commits containing tests that verify progress
+toward those goals, and finally commits that implement the changes
+needed to make progress. As new situations and issues arise and we
+learn from experience, we create new goals and tests, allowing
+adaptation to changing circumstances.
 
 This approach to governance is similar to the scientific process, in
 that it encourages an iterative approach to decision-making. The
@@ -407,6 +413,91 @@ Agile.  By emphasizing a cyclical approach to decision-making, these
 processes promote continual learning and adaptation to changing
 circumstances, leading to a culture of adaptation, innovation, and
 resilience.
+
+## Decentralized Systems Overview
+
+*Anyone can host.*
+
+In the early days of the internet, there was a strong emphasis on
+decentralization, as evidenced by systems like Usenet. Usenet was a
+distributed discussion system that relied on a network of
+interconnected servers to share articles and messages. This allowed
+for decentralized decision-making and data sharing, as well as
+reducing the risk of a single point of failure or vulnerability.
+
+However, in recent years, there has been a shift towards
+centralization of the internet, as larger companies and platforms have
+gained significant power and influence. These centralized platforms
+often create a single point of control and can be subject to
+censorship or interference from state actors. This can have negative
+consequences for freedom of speech, privacy, and democracy.
+
+The downsides of a centralized internet include the risk of data
+breaches and the concentration of power in the hands of a few
+companies. This can result in an uneven playing field for smaller
+businesses and lead to a lack of innovation and diversity in the
+technology sector. Additionally, centralized systems are often
+inflexible and difficult to modify or scale, making it harder for
+communities to adapt to changing circumstances.
+
+In contrast, decentralized systems offer advantages such as greater
+resilience, privacy, and autonomy. Decentralization promotes
+collaboration, innovation, and diversity by allowing more participants
+to contribute to the system without fear of reprisal. Decentralized
+decision-making and data storage can also help prevent censorship or
+interference from third parties. Overall, decentralization can lead to
+a more equitable and democratic internet.
+
+###  Benefits of Decentralized Systems
+
+Decentralized systems offer a number of benefits in comparison to
+centralized ones. Decentralization promotes collaboration, innovation,
+and diversity by allowing more participants to contribute.
+Decentralized systems provide greater privacy and autonomy, as data is
+not held by a single centralized authority that may have a conflict of
+interest. This makes it easier to trust the system, and to feel
+confident in its accuracy and integrity. By eliminating the need for a
+centralized intermediary, decentralization reduces the risk of fraud,
+abuse, and corruption.
+
+In contrast to centralized systems, decentralized systems are built
+on the principles of distributed decision-making and consensus
+formation. This means that individuals are empowered to make
+decisions and take action without relying on a central authority to
+manage the process. Instead, they collaborate in a trustless and
+transparent environment that is designed to be resilient and scalable.
+Decentralized systems are also adaptable and customizable to a wide
+range of situations and needs, making them more flexible and accessible
+than centrally-owned targeted tools. By promoting equitable and
+democratic decision-making, decentralized systems help to foster a
+sense of community and shared purpose that can be difficult to achieve
+in centralized systems.
+
+The rise of decentralized systems has led to innovations in numerous fields,
+including governance, finance, and social media. These systems are
+revolutionizing the way we interact with each other online and are
+helping to create a more equitable and democratic society. Decentralized
+systems offer a unique opportunity for individuals to exercise greater
+freedom and autonomy, while also promoting collaboration, transparency,
+and accountability. As we continue to develop these systems, we can
+expect them to play an increasingly central role in shaping the future
+of our world.
+
+## Testing in Decentralized Systems
+
+*Anyone can test.*
+
+Testing is an essential component of any decentralized system, as it
+helps to ensure that the system is functioning correctly and free from
+errors or vulnerabilities. In a decentralized system, tests serve as
+the rules for determining whether a commit should be accepted, and
+they are crucial in establishing trust and facilitating collaboration
+between different nodes in the network. The testing process allows for
+transparency and accuracy by ensuring that changes and updates are
+reviewed and validated before being implemented, and that all nodes in
+the network agree on the state of a timeline. Ultimately, testing is a
+critical aspect of decentralized systems, as it helps to promote
+resilience, trust, and accountability.
 
 ## Contributing
 
