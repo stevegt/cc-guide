@@ -91,7 +91,7 @@ inseperable, atomic change.
 
 *Our universe is composed of multiple parallel timelines.*
 
-Parallel timelines allow for differing or unrelated histories and
+Parallel timelines allow differing or unrelated histories and
 plans to exist, and to be reconciled or merged. This can be useful in
 situations where multiple versions or perspectives of events exist
 with significant differences, or where different parties make
@@ -133,11 +133,11 @@ version of a software project from an existing version.
 
 *Merging is consensus formation.*
 
-Merging is the process of combining two or more parallel timelines
-into a single timeline.  Merging is used in situations where two or
-more parties join efforts for the first time, or where different
-parties have been exploring different branches of a timeline and now
-need to reconcile their work or perspectives.  
+Merging is the process of synchronizing one or more events on parallel
+timelines.  Merging is used in situations where two or more parties
+join efforts for the first time, or where different parties have been
+exploring different branches of a timeline and now need to reconcile
+their work or perspectives.  
 
 The majority of this guide and the related software platform are
 focused on addressing what we call "the merge problem":  Ultimately,
@@ -156,10 +156,11 @@ members to reach a common goal. In legislation, merging involves
 reconciling different provisions and viewpoints of lawmakers to create
 laws that are just and equitable. In joint projects, collaboration
 requires merging different ideas and perspectives of various
-stakeholders to generate innovative solutions to complex problems. In
-event coordination, merging is the process of bringing together
-different ideas and perspectives of participants to create a memorable
-and enjoyable experience for everyone involved.
+stakeholders to generate innovative solutions to complex problems. 
+
+In event coordination, merging is the process of synchronizing time
+slots while bringing together ideas and perspectives of participants
+to create a memorable and enjoyable experience for everyone involved.
 
 Given the importance of merging to these various areas, it's clear
 that a system that can better facilitate merging and reconciliation is
