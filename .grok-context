@@ -859,3 +859,40 @@ automated process.  Until then:
 - [ ] Send a reminder at {{.ANNOUNCE_LINK}}
 - [ ] ggXXX
 
+
+
+2. Call for Objections:  Submitting the commit automatically creates a
+   "call for objections" (CFO), inviting the community or project
+   members to review the proposal and voice any objections they may
+   have. The deadline and means for raising objections should be
+   clearly stated.
+
+3. Review and Discussion: The community or project members review the proposal and discuss any objections or concerns they may have. This can be done through email, discussion forums, or in a meeting.
+
+4. Resolve Objections: The proposer works with the community or project members to resolve any objections or concerns raised during the review and discussion phase. This may involve revising the proposal, seeking additional input, or finding alternative solutions.
+
+5. Acceptance: If objections are resolved, the community or project
+   members accept the proposal and the change is made to the timeline
+   or project plan. If objections cannot be resolved, the proposal may
+   be withdrawn or revised.
+
+The proposal process ensures that significant changes are thoroughly
+considered and discussed before they are made. It promotes
+collaboration and transparency by allowing all members of the
+community or project to contribute their ideas and raise potential
+concerns. This process helps to build consensus and ensure that
+changes are made in a constructive and inclusive manner.
+
+
+In the context of CC (Collaborative Consensus), testing is an integral
+part of the CC process and is used to validate new commits being added
+to the timeline. Participants are expected to review relevant
+documentation and code ahead of Test Meetings and are tasked with
+testing and validating the project to ensure its quality and
+correctness.
+
+Similar to a legislature voting on an amendment, testing a commit
+involves assessing its quality and making a decision about whether to
+accept or reject it. In both cases, there may be rules or criteria
+that need to be met in order for a proposal to be accepted. 
+

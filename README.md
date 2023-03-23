@@ -1,50 +1,5 @@
 # Community Coordination Guide (CC) 
 
-## What is Community Coordination?
-
-*Humans live, work, and govern in communities.*
-
-Community Coordination (CC) is a process in the spirit of Lean and
-Agile, supported by a software platform that reduces workload while
-handling the administrivia of coordinating projects and events for a
-group, community, or organization. Providing both synchronous and
-asynchronous guidelines and tools, CC emphasizes accessibility,
-collaboration, and adaptability, and is suitable for a wide range of
-users, including those with technical and non-technical backgrounds.
-
-It's become obvious during early discussion that we're likely working
-on a decentralized platform that supercedes git, gdocs, scrum, and
-several other commonly-used tools and methodologies. Existing
-solutions either have a high learning curve, are narrowly targeted at
-a specific use case, or are missing features that weren't feasible
-when they were developed, such as AI-mediated conflict resolution
-during merges.  
-
-Git, for instance, was written to meet an emergency need of Linux
-kernel developers nearly two decades ago, and github was later created
-in order to work around some of git's shortcomings, such as lack of
-integrated issues or in-band communication.  Git wasn't the first
-decentralized version control system, and it won't be the last. It's
-time to move on, but any replacement will need to be really, really
-good in order to justify adoption.
-
-See the [Bootstrapping](#Bootstrapping) section for how we're running
-this project right now, and the remainder of this guide for how things
-will work after we become self-hosting.
-
-## About the Name
-
-Note that "CC" is a working name for this new process and is likely to
-change (in particular, the "CC" acronym is already in use by the
-[Creative Commons](https://creativecommons.org/) organization). If you
-have any suggestions for a more fitting title, please feel free to
-share them with the group.  Some under consideration include:
-
-- TC -- Timeline Coordination
-- GDO -- Governance, Development, and Operations
-- Timelines -- descriptive
-- TymeLynes -- unique
-
 ## Bootstrapping 
 
 This guide and the CC platform are being created by the [Community
@@ -173,9 +128,53 @@ bootstrapping, we will use github for async work.  This includes:
 The remainder of this document is forward-looking and describes how
 things will work once we have a working platform.
 
-## XXX
+## What is Community Coordination?
 
-### Timelines
+*Humans live, work, and govern in communities.*
+
+Community Coordination (CC) is a process in the spirit of Lean and
+Agile, supported by a software platform that reduces workload while
+handling the administrivia of coordinating projects and events for a
+group, community, or organization. Providing both synchronous and
+asynchronous guidelines and tools, CC emphasizes accessibility,
+collaboration, and adaptability, and is suitable for a wide range of
+users, including those with technical and non-technical backgrounds.
+
+It's become obvious during early discussion that we're likely working
+on a decentralized platform that supercedes git, gdocs, scrum, and
+several other commonly-used tools and methodologies. Existing
+solutions either have a high learning curve, are narrowly targeted at
+a specific use case, or are missing features that weren't feasible
+when they were developed, such as AI-mediated conflict resolution
+during merges.  
+
+Git, for instance, was written to meet an emergency need of Linux
+kernel developers nearly two decades ago, and github was later created
+in order to work around some of git's shortcomings, such as lack of
+integrated issues or in-band communication.  Git wasn't the first
+decentralized version control system, and it won't be the last. It's
+time to move on, but any replacement will need to be really, really
+good in order to justify adoption.
+
+See the [Bootstrapping](#Bootstrapping) section for how we're running
+this project right now, and the remainder of this guide for how things
+will work after we become self-hosting.
+
+## About the Name
+
+Note that "CC" is a working name for this new process and is likely to
+change (in particular, the "CC" acronym is already in use by the
+[Creative Commons](https://creativecommons.org/) organization). If you
+have any suggestions for a more fitting title, please feel free to
+share them with the group.  Some under consideration include:
+
+- TC -- Timeline Coordination
+- GDO -- Governance, Development, and Operations
+- Timelines -- descriptive
+- TymeLynes -- unique
+
+
+## Timelines
 
 *Time is the independent variable.*
 
@@ -189,21 +188,21 @@ Timelines refer to a chronological ordering of events, edits, or
 actions, and are used to organize important information, decisions,
 and procedures. 
 
-#### Organizational Timelines
+### Organizational Timelines
 
 Timelines can be used to organize information for an organization,
 such as meeting minutes, project plans, and event schedules. This can
 be useful for groups, teams, and communities, and can be used to
 coordinate activities, events, and projects. 
 
-#### Personal Timelines
+### Personal Timelines
 
 Timelines can be used to organize personal information, such as
 schedules, to-do lists, and notes. This can be useful for
 individuals, families, and small groups, and can be used to
 coordinate activities, events, and projects. 
 
-### Commits
+## Commits
 
 *Assertions of the past and promises of the future are commits.*
 
@@ -214,7 +213,7 @@ can be a set of related changes to several files, a single number, or
 any other type of information that is considered to be a single,
 inseperable, atomic change.  
 
-### Parallel Timelines
+## Parallel Timelines
 
 *Our universe is composed of multiple parallel timelines.*
 
@@ -235,7 +234,7 @@ Through the use of parallel timelines, individuals can coordinate with
 each other via the merging and reconciliation process offered in this
 guide.
 
-### Branching
+## Branching
 
 *Branches explore options.*
 
@@ -256,7 +255,7 @@ Branching is also known as forking -- a term that is used in
 software development to describe the process of creating a new
 version of a software project from an existing version.
 
-### Merging Overview
+## Merging Overview
 
 *Merging is consensus formation.*
 
@@ -292,7 +291,7 @@ Given the importance of merging to these various areas, it's clear
 that a system that can better facilitate merging and reconciliation is
 vital.
 
-#### Timelines Help Form Consensus 
+## Timelines Help Form Consensus 
 
 *First, find common ground.*
 
@@ -310,7 +309,7 @@ provides an opportunity for different parties to discuss and compare
 their versions, which can lead to more informed decision-making and a
 better outcome. 
 
-#### Consensus Detection with Machine Learning
+## Consensus Detection with Machine Learning
 
 *Mediators work.*
 
@@ -338,8 +337,76 @@ back decades.  Grokker made this work easy by maintaining a much
 larger context of concepts while summarizing them into the single
 document you see here.
 
-### Proposals and Testing
+## Proposals 
 
+A proposal is essentially a draft commit that is subject to review and
+discussion before being accepted and added to the timeline. It is an
+opportunity to gather input from the group or community and to resolve
+any objections or conflicts before making a final decision.
+
+Here are the steps of the proposal process:
+
+1. Proposal:  An individual submits a new commit as a draft.  The
+   commit will name one or more authors.  The commit is proposed for a
+   particular timeline.
+
+2. Testing:  The commit is tested according to the policies already
+   described in prior commits on the same timeline.  These tests may
+   be automated, manual, or a combination of both.
+
+3. Acceptance:  If the tests pass, the proposal is accepted and added
+   as a permanent commit on the timeline.
+
+## Testing
+
+Testing a commit involves checking that it meets the requirements set
+by the prior commits on the same timeline. Testing can be either
+manual or automated, or a combination of both. The tests are designed
+to ensure the quality and reliability of a commit.
+
+Similar to the way a constitution or bylaws document defines the rules
+and procedures for making changes to the document, tests on a timeline
+serve as the rules for determining whether a commit should be
+accepted.  
+
+Any changes to the tests must be documented in a new commit on the
+same timeline. The new commit must be able to pass the existing tests
+on the timeline in order to be accepted. This ensures that any changes
+to the tests are reviewed and validated before being implemented. 
+
+## Test Driven Governance
+
+Test-driven governance is a methodology that applies a concept from
+software development, known as test-driven development (TDD), to
+governance, management, and community building.
+
+In TDD, software developers first define the goals of an application
+and then create automated tests that verify that the application
+fulfills these requirements. The developer then proceeds to write code
+that will pass the tests.
+
+Similarly, in test-driven governance, goals are defined in commits,
+followed by commits containing tests that verify progress toward those
+goals, and finally commits that implement the changes needed to make
+progress. As new situations and issues arise and we learn from
+experience, we create new goals and tests, allowing adaptation to
+changing circumstances.
+
+This approach to governance is similar to the scientific process, in
+that it encourages an iterative approach to decision-making. The
+scientific process involves making observations, developing
+hypotheses, testing those hypotheses, and then using the results of
+those tests to refine the hypotheses. When applied to governance,
+management, and community building, a similar approach can help to
+ensure that decisions are made based on a solid foundation of recorded
+experience, rather than relying on intuition alone. 
+
+The test-driven governance process is also similar to the continuous
+improvement process in Lean and the iterative Scrum/Sprint cycle in
+Agile.  By emphasizing a cyclical approach to decision-making, these
+processes promote continual learning and adaptation to changing
+circumstances, leading to a culture of adaptation, innovation, and
+resilience.
 
 ## Contributing
 
