@@ -47,6 +47,84 @@ share them with the group.  Some under consideration include:
 - Timelines -- descriptive
 - TymeLynes -- unique
 
+## Decentralized Systems Overview
+
+*Anyone can host.*
+
+In the early days of the internet, there was a strong emphasis on
+decentralization, as evidenced by systems like Usenet. Usenet was a
+distributed discussion system that relied on a network of
+interconnected servers to share articles and messages. This allowed
+for decentralized decision-making and data sharing, as well as
+reducing the risk of a single point of failure or vulnerability.
+
+However, in recent years, there has been a shift towards
+centralization of the internet, as larger companies and platforms have
+gained significant power and influence. These centralized platforms
+often create a single point of control and can be subject to
+censorship or interference from state actors. This can have negative
+consequences for freedom of speech, privacy, and democracy.
+
+The downsides of a centralized internet include the risk of data
+breaches and the concentration of power in the hands of a few
+companies. This can result in an uneven playing field for smaller
+businesses and lead to a lack of innovation and diversity in the
+technology sector. Additionally, centralized systems are often
+inflexible and difficult to modify or scale, making it harder for
+communities to adapt to changing circumstances.
+
+In contrast, decentralized systems offer advantages such as greater
+resilience, privacy, and autonomy. Decentralization promotes
+collaboration, innovation, and diversity by allowing more participants
+to contribute. Decentralized decision-making and data storage can also
+help prevent censorship or interference from third parties. Overall,
+decentralization can lead to a more equitable and democratic internet.
+
+In contrast to centralized systems, decentralized systems are built on
+the principles of distributed decision-making and consensus formation.
+This means that individuals are empowered to make decisions and take
+action without relying on a central authority to manage the process.
+Instead, they collaborate in a trustless and transparent environment
+that is designed to be resilient and scalable. Decentralized systems
+are also adaptable and customizable to a wide range of situations and
+needs, making them more flexible and accessible than centrally-owned
+targeted tools. By promoting equitable and democratic decision-making,
+decentralized systems help to foster a sense of community and shared
+purpose that can be difficult to achieve in centralized systems.
+
+The rise of decentralized systems has led to innovations in numerous fields,
+including governance, finance, and social media. These systems are
+revolutionizing the way we interact with each other online and are
+helping to create a more equitable and democratic society. Decentralized
+systems offer a unique opportunity for individuals to exercise greater
+freedom and autonomy, while also promoting collaboration, transparency,
+and accountability. As we continue to develop these systems, we can
+expect them to play an increasingly central role in shaping the future
+of our world.
+
+## Why was decentralization not feasible before now?
+
+The system we describe here is only now becoming feasible due to
+advances in technology, including the capabilities of modern browsers
+and the rapid acceleration machine learning capabilities to aid in
+planning and development for complex systems.  The growing popularity
+of decentralized systems enabled by these changes has paved the way
+for the adoption of CC and its underlying principles.
+
+The advent of WebAssembly (WASM) in particular has facilitated the
+creation of a decentralized system by enabling users to run more
+complex code in a sandboxed environment without the need for
+centralized servers.
+
+## Terminology
+
+In order to effectively communicate the principles of decentralized
+systems, including Community Coordination (CC), it is sometimes
+necessary to use technical terms and concepts. However, we strive to
+keep these descriptions light and accessible so that people from
+diverse backgrounds can understand them. Our goal is to create an
+inclusive, transparent, and equitable environment for collaboration
+and decision-making, and it all begins with effective communication.
 
 ## Timelines
 
@@ -289,61 +367,6 @@ processes promote continual learning and adaptation to changing
 circumstances, leading to a culture of adaptation, innovation, and
 resilience.
 
-## Decentralized Systems Overview
-
-*Anyone can host.*
-
-In the early days of the internet, there was a strong emphasis on
-decentralization, as evidenced by systems like Usenet. Usenet was a
-distributed discussion system that relied on a network of
-interconnected servers to share articles and messages. This allowed
-for decentralized decision-making and data sharing, as well as
-reducing the risk of a single point of failure or vulnerability.
-
-However, in recent years, there has been a shift towards
-centralization of the internet, as larger companies and platforms have
-gained significant power and influence. These centralized platforms
-often create a single point of control and can be subject to
-censorship or interference from state actors. This can have negative
-consequences for freedom of speech, privacy, and democracy.
-
-The downsides of a centralized internet include the risk of data
-breaches and the concentration of power in the hands of a few
-companies. This can result in an uneven playing field for smaller
-businesses and lead to a lack of innovation and diversity in the
-technology sector. Additionally, centralized systems are often
-inflexible and difficult to modify or scale, making it harder for
-communities to adapt to changing circumstances.
-
-In contrast, decentralized systems offer advantages such as greater
-resilience, privacy, and autonomy. Decentralization promotes
-collaboration, innovation, and diversity by allowing more participants
-to contribute. Decentralized decision-making and data storage can also
-help prevent censorship or interference from third parties. Overall,
-decentralization can lead to a more equitable and democratic internet.
-
-In contrast to centralized systems, decentralized systems are built on
-the principles of distributed decision-making and consensus formation.
-This means that individuals are empowered to make decisions and take
-action without relying on a central authority to manage the process.
-Instead, they collaborate in a trustless and transparent environment
-that is designed to be resilient and scalable. Decentralized systems
-are also adaptable and customizable to a wide range of situations and
-needs, making them more flexible and accessible than centrally-owned
-targeted tools. By promoting equitable and democratic decision-making,
-decentralized systems help to foster a sense of community and shared
-purpose that can be difficult to achieve in centralized systems.
-
-The rise of decentralized systems has led to innovations in numerous fields,
-including governance, finance, and social media. These systems are
-revolutionizing the way we interact with each other online and are
-helping to create a more equitable and democratic society. Decentralized
-systems offer a unique opportunity for individuals to exercise greater
-freedom and autonomy, while also promoting collaboration, transparency,
-and accountability. As we continue to develop these systems, we can
-expect them to play an increasingly central role in shaping the future
-of our world.
-
 ## Testing in Decentralized Systems
 
 *Anyone can test.*
@@ -359,20 +382,6 @@ reviewed and validated before being implemented, and that all nodes in
 the network agree on the state of a timeline. Ultimately, testing is a
 critical aspect of decentralized systems, as it helps to promote
 resilience, trust, and accountability.
-
-## Why was decentralization not feasible before now?
-
-The system we describe here is only now becoming feasible due to
-advances in technology, including the capabilities of modern browsers
-and the rapid acceleration machine learning capabilities to aid in
-planning and development for complex systems.  The growing popularity
-of decentralized systems enabled by these changes has paved the way
-for the adoption of CC and its underlying principles.
-
-The advent of WebAssembly (WASM) in particular has facilitated the
-creation of a decentralized system by enabling users to run more
-complex code in a sandboxed environment without the need for
-centralized servers.
 
 ## User Stories
 
