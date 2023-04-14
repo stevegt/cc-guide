@@ -96,7 +96,7 @@ targeted tools. By promoting equitable and democratic decision-making,
 decentralized systems help to foster a sense of community and shared
 purpose that can be difficult to achieve in centralized systems.
 
-## Why was decentralization not feasible before now?
+## Why is decentralization becoming more feasible now?
 
 The system we describe here is only now becoming feasible due to
 advances in technology, including the capabilities of modern browsers
@@ -133,6 +133,10 @@ and problem-solving.
 Timelines refer to a chronological ordering of events, edits, or
 actions, and are used to organize important information, decisions,
 and procedures. 
+
+Users of traditional version control systems will recognize the
+parallels between the concept of a timeline and the chain of commits
+in a git branch.
 
 ### Organizational Timelines
 
@@ -205,38 +209,38 @@ version of a software project from an existing version.
 
 *Merging is consensus formation.*
 
+Merging is the central problem of governance, management, legislation,
+and collaboration. 
+
 Merging is the process of synchronizing one or more events on parallel
 timelines.  Merging is used in situations where two or more parties
 join efforts for the first time, or where different parties have been
 exploring different branches of a timeline and now need to reconcile
 their work or perspectives.  
 
-The majority of this guide and the related software platform are
-focused on addressing what we call "the merge problem":  Ultimately,
-the success of any effort depends on how well merging is managed, and
-yet, tools to assist with this process have necessarily been limited
-in their capabilities and in the problem domains they address; most
-progress to date has been primarily in tools to assist with merges in
-software development projects.
+In governance, merging refers to the process of reconciling different
+perspectives and interests to create policies and regulations that
+benefit the community as a whole. 
 
-Merging is the central problem of governance, management, legislation,
-and collaboration. In governance, merging refers to the process of
-reconciling different perspectives and interests to create policies
-and regulations that benefit the community as a whole. In management,
-merging involves combining different approaches and ideas of team
-members to reach a common goal. In legislation, merging involves
-reconciling different provisions and viewpoints of lawmakers to create
-laws that are just and equitable. In joint projects, collaboration
-requires merging different ideas and perspectives of various
-stakeholders to generate innovative solutions to complex problems. 
+In legislation, merging involves reconciling different provisions and
+viewpoints of lawmakers -- merging differing bills from the US Senta
+and House is one example. 
+
+In management, merging involves combining different approaches and
+ideas of team members to reach a common goal. 
+
+In joint projects, collaboration requires merging different ideas and
+perspectives of various stakeholders to generate innovative solutions
+to complex problems. 
 
 In event coordination, merging is the process of synchronizing time
 slots while bringing together ideas and perspectives of participants
 to create a memorable and enjoyable experience for everyone involved.
 
-Given the importance of merging to these various areas, it's clear
-that a system that can better facilitate merging and reconciliation is
-vital.
+The majority of this guide and the related software platform are
+focused on addressing what we call "the merge problem":  Ultimately,
+the success of much of human effort depends on how well merging is
+managed.
 
 ## Timelines Help Form Consensus 
 
