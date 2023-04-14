@@ -1448,3 +1448,124 @@ planning, making it challenging to create effective and reliable
 plans, evaluate their effectiveness, and make informed decisions about
 how to adapt and revise them.
 
+
+a timeline is a program written in a domain-specific language (DSL)
+
+
+Yes, that's correct. A timeline can be thought of as a program written
+in a domain-specific language (DSL) that allows for the documentation
+and management of events, commits or changes over time. The DSL allows
+for the creation of a structured and organized timeline, with each
+commit or event being documented and referenced using a unique
+identifier or key. As new events occur, new commits can be added to
+the timeline, staying within the constraints and rules established
+by the DSL. Overall, a timeline DSL enables greater transparency
+and collaboration among team members, as well as better
+organization and management of information over time.
+
+what is tragedy of the commons?
+
+The "tragedy of the commons" is a term used to describe a situation
+where a shared resource is overused and depleted because individuals
+acting in their own self-interest prioritize their personal gain over
+the common good. This results in the depletion of the resource, which
+often leads to negative consequences for all users, even those who did
+not directly contribute to the overuse. The term was first introduced
+by Garrett Hardin in 1968 to describe the overuse of common land by
+shepherds. Today it is used to describe many other situations where
+shared resources, such as fisheries, water resources, or even the
+atmosphere, are at risk of being overused and depleted if not properly
+managed. To prevent the tragedy of the commons, effective management
+strategies and cooperation are necessary to ensure the sustainable use
+of shared resources.
+
+is avoiding tragedy of the commons in the best interest of the commons and community?
+
+Yes, avoiding the tragedy of the commons is definitely in the best
+interest of the commons and the community. The tragedy of the commons
+occurs when a shared and limited resource is overused and depleted
+because individuals act in their self-interest without considering the
+overall effects on the community. This can lead to environmental
+degradation, economic instability, and social unrest. Therefore,
+protecting the commons through regulation or community action is
+necessary to ensure the long-term sustainability and well-being of the
+community. By promoting responsible use and management of resources,
+the community can maintain and even improve the quality of life and
+economic opportunities for all members.
+
+as a test of consensus mediation, resolve this, optimizing in the best
+interests of the commons: "fred wants the event to occur over the
+weekend, based on the idea that more people are able to attend when not
+working their regular jobs.  mary wants it to occur on a weekday,
+because she is running the event as part of her regular job and wants
+her weekends off."
+
+To resolve this conflict, we suggest the following proposal:
+
+The event will be held on a weekday with some optional activities on
+the weekend to accommodate for those unable to attend during the week.
+Mary will be responsible for coordinating the event during the week,
+and Fred will organize the optional weekend activities. 
+
+This proposal takes into consideration the concerns raised by both
+Fred and Mary and provides a compromise that will benefit the majority
+of participants while still allowing Mary to have her weekends off.
+Additionally, it allows for more flexibility in scheduling and
+provides an opportunity for more people to attend the event. 
+
+We recommend that this proposal be presented to the community or
+project members for review and discussion. Any objections or concerns
+can be addressed through the proposal review and discussion process,
+following the steps outlined earlier. 
+
+what is the value of proposing third alternatives in avoiding tragedy
+of the commons in conflict mediation?
+
+In conflict mediation, the tragedy of the commons refers to a
+situation where two or more parties are competing for a shared
+resource, and each party wants to maximize their own personal gain at
+the expense of others. This often results in a "race to the bottom,"
+where everyone ends up worse off in the long run.
+
+One way to avoid this tragedy is by proposing third alternatives in
+addition to the conflicting parties' initial proposals. These
+alternatives can provide a way for the parties to see a potential
+solution that they may not have considered previously, stimulating
+creative problem-solving and helping to overcome the impasse created
+by their conflicting proposals.
+
+By proposing a third alternative, a mediator can encourage more
+cooperative behavior and help the parties to refocus on their shared
+goals, rather than their individual interests. It can also help to
+reframe the situation in a way that makes it easier for the
+conflicting parties to reach a win-win solution, where everyone
+benefits.
+
+Overall, proposing third alternatives in conflict mediation can be a
+helpful tool in avoiding the tragedy of the commons and promoting
+collaboration, communication, and effective decision-making.
+
+what is it called when a meeting starts with a required time for
+reading a background document?
+
+It's called a "pre-read" or a "pre-meeting document". A pre-read is a
+document that is sent to meeting participants in advance of the
+meeting, to be read and considered prior to the meeting. It's a way to
+ensure that everyone comes to the meeting prepared, and that the
+discussion can be focused and efficient. The meeting may start with a
+brief recap of the pre-read document before moving onto the main
+topics of the meeting.
+
+CC platform -- see guide 
+   - e.g. what would reduce your own workload and improve your community of practice, both professionally and personally?
+   CC platform is layers:
+   - group/project methodology evolved from Lean/Agile, leverages newer capabilities e.g. WASM, AI-mediated planning and consensus formation
+   - decentralized OS that runs in the set of browsers who use it
+      - avoid central servers, hosting costs, or setup time
+      - decentralized data storage
+   - applications that run in that OS
+      - OS supports collaborative app development and deployment
+   - expand CSWG after CC platform is running
+      - so far CSWG has only been using a ~30 person email list
+      - slow soft launch on NoM slack, Makerspace Organizers Facebook, social media
+

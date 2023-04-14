@@ -58,12 +58,14 @@ interconnected servers to share articles and messages. This allowed
 for decentralized decision-making and data sharing, as well as
 reducing the risk of a single point of failure or vulnerability.
 
-However, in recent years, there has been a shift towards
-centralization of the internet, as larger companies and platforms have
-gained significant power and influence. These centralized platforms
-often create a single point of control and can be subject to
-censorship or interference from state actors. This can have negative
-consequences for freedom of speech, privacy, and democracy.
+### The trend toward centralized systems
+
+In recent years, there has been a shift towards centralization of the
+internet, as larger companies and platforms have gained significant
+power and influence. These centralized platforms often create a single
+point of control and can be subject to censorship or interference from
+state actors. This can have negative consequences for freedom of
+speech, privacy, and democracy.
 
 The downsides of a centralized internet include the risk of data
 breaches and the concentration of power in the hands of a few
@@ -73,11 +75,13 @@ technology sector. Additionally, centralized systems are often
 inflexible and difficult to modify or scale, making it harder for
 communities to adapt to changing circumstances.
 
-In contrast, decentralized systems offer advantages such as greater
-resilience, privacy, and autonomy. Decentralization promotes
-collaboration, innovation, and diversity by allowing more participants
-to contribute. Decentralized decision-making and data storage can also
-help prevent censorship or interference from third parties. Overall,
+### The need for decentralized systems
+
+Decentralized systems offer advantages such as greater resilience,
+privacy, and autonomy. Decentralization promotes collaboration,
+innovation, and diversity by allowing more participants to contribute.
+Decentralized decision-making and data storage can also help prevent
+censorship or interference from third parties. Overall,
 decentralization can lead to a more equitable and democratic internet.
 
 In contrast to centralized systems, decentralized systems are built on
@@ -92,21 +96,11 @@ targeted tools. By promoting equitable and democratic decision-making,
 decentralized systems help to foster a sense of community and shared
 purpose that can be difficult to achieve in centralized systems.
 
-The rise of decentralized systems has led to innovations in numerous fields,
-including governance, finance, and social media. These systems are
-revolutionizing the way we interact with each other online and are
-helping to create a more equitable and democratic society. Decentralized
-systems offer a unique opportunity for individuals to exercise greater
-freedom and autonomy, while also promoting collaboration, transparency,
-and accountability. As we continue to develop these systems, we can
-expect them to play an increasingly central role in shaping the future
-of our world.
-
 ## Why was decentralization not feasible before now?
 
 The system we describe here is only now becoming feasible due to
 advances in technology, including the capabilities of modern browsers
-and the rapid acceleration machine learning capabilities to aid in
+and the rapid acceleration of machine learning capabilities to aid in
 planning and development for complex systems.  The growing popularity
 of decentralized systems enabled by these changes has paved the way
 for the adoption of CC and its underlying principles.
@@ -385,11 +379,42 @@ resilience, trust, and accountability.
 
 ## User Stories
 
-XXX WIP
+- As a group organizer, I want to be able to easily manage my group
+  and organize events efficiently. I want to ensure my group
+  members are informed of upcoming events, track RSVPs, and
+  communicate important information in a timely manner. Additionally,
+  I want to have access to tools that will allow me to create polls
+  and surveys to gather feedback and insights from group members
+  easily. By having an organized and efficient system for managing my
+  group, I can focus on building our community and creating meaningful
+  experiences for our members.
 
-## Contributing
+- As a member of an online community, I want to be able to view and
+  participate in discussions relevant to my interests, so that I can
+  expand my knowledge and connect with like-minded individuals. I also
+  want to be able to easily search for and discover new conversations,
+  topics, and calendar events that I may be interested in, so that I
+  can continue to learn and engage with the community.
 
-This is a living document.  It is a work in progress and will be updated as we learn more.
+- As a project team member, I want to be able to easily communicate
+  with other members so that we can collaborate efficiently and
+  accomplish our tasks effectively. I would like to have access to a
+  team messaging platform or application where we can send messages,
+  share files, and pick tasks, all in one convenient location. This
+  would save us time and reduce any miscommunications or
+  misunderstandings that can occur through fragmented communication
+  methods such as email or phone calls.
+
+- As a family business owner, I want to improve resilience, improve
+  collaboration with customers on advanced engineering and science
+  projects, improve our ability to scale to meet demand, reduce
+  workloads and lead times, implement a collaborative decision-making
+  process which allows us to avoid creating a traditional management
+  hierarchy, and support knowledge transfer for succession planning
+  and my own retirement.  Decentralized systems support all of these
+  goals.
+
+# Contributing
 
 If you have suggestions for how to improve this document, please open a pull request or issue on the [Community Coordination Guide GitHub repository](https://github.com/stevegt/cc-guide).
 
