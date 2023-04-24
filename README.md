@@ -201,10 +201,6 @@ on solutions to a problem using different approaches, and need freedom
 to explore.  The various branches can then be reconciled later during
 merge.
 
-Branching is also known as forking -- a term that is used in
-software development to describe the process of creating a new
-version of a software project from an existing version.
-
 ## Merging Overview
 
 *Merging is consensus formation.*
